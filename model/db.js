@@ -6,8 +6,8 @@ var mongoose = require('mongoose');
 //         console.log('Connected to Server successfully');
 //     }
 // });
-
-mongoose.connect('mongodb://heroku_0n621108:hgsolivj50plo8bvbmckme8sa9@ds035856.mlab.com:35856/heroku_0n621108?socketTimeoutMS=90000', function(err, db) {
+let connectionString = process.env.CONNECTION_STRING;
+mongoose.connect(connectionString, function(err, db) {
     if (err) {
         console.log('Unable to connect to the server. Please start the server.', err);
     } else {

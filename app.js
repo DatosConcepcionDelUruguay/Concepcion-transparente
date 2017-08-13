@@ -1,3 +1,4 @@
+require('dotenv').config()
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -20,7 +21,6 @@ var app = express();
 // MONGO DB
 var mongoose = require('mongoose');
 var colors = require('colors')
-require('dotenv').config()
 
 // try {
 //   let host = process.env.MONGO_HOST || 'localhost'
