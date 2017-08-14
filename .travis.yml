@@ -10,3 +10,4 @@ deploy: &heroku
   provider: heroku
   app: concepcion-transparente
   api_key: $HEROKU_TOKEN
+  on: concepcion-transparente
