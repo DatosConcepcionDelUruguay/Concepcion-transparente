@@ -6,3 +6,7 @@ install:
 cache:
   directories:
     - "node_modules"
+deploy: &heroku
+  provider: heroku
+  app: concepcion-transparente
+  api_key: $HEROKU_TOKEN
