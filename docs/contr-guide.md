@@ -1,4 +1,4 @@
-# Guia de contribución #
+# Guía de contribución #
 [En desarrollo]
 
 Este documento describe la forma de trabajo para todos los desarrolladores que estén contribuyendo al proyecto __Concepción Transparente__.
