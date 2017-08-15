@@ -16,3 +16,6 @@ Portal de Transparencia de la ciudad de Concepción del Uruguay (Entre Ríos, Ar
 1. Si no hay datos previamente cargados, hay que forzar la ejecución del scrapper (tenemos que mejorar ésta parte).
 1. __`npm start`__
 1. Ingresar a __localhost:3000__ en un browser.
+
+## Guia para contribuir al proyecto ##
+[Guia de Contribución](docs/contr-guide.md)
