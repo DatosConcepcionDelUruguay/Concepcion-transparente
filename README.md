@@ -17,5 +17,5 @@ Portal de Transparencia de la ciudad de Concepción del Uruguay (Entre Ríos, Ar
 1. __`npm start`__
 1. Ingresar a __localhost:3000__ en un browser.
 
-## Guia para contribuir al proyecto ##
-[Guia de Contribución](docs/contr-guide.md)
+## Guía para contribuir al proyecto ##
+[Ver guía](docs/contr-guide.md)
