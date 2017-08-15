@@ -12,4 +12,3 @@ deploy: &heroku
   api_key: $HEROKU_TOKEN
   on: 
     branch: develop
-  run: "npm install async"
